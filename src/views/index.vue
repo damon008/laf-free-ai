@@ -140,7 +140,7 @@ function setScreen() {
     <div class="begintitle">
       <h1 v-show="!list.length">交个朋友之猿天地</h1>
         <p><img src="/qrcode.jpg" alt="公众号" /></p>
-        <p>个站：<a target="_blank" href="https://damon008.github.io">https://damon008.github.io</a></p>
+        <p>个站：<a target="_blank" href="https://damon008.github.io"><font color="red" weight="bold">https://damon008.github.io</font></a></p>
       <!--<h1></h1>
         <h1></h1>-->
     </div>
@@ -157,6 +157,7 @@ function setScreen() {
       </div>
     </div>
 
+    <!--
     <div v-show="!list.length" class="exhibition">
       <div class="witem">
         <svg
@@ -234,6 +235,7 @@ function setScreen() {
         <p>对 2021 年后的世界和事件的了解有限</p>
       </div>
     </div>
+    -->
     <div class="steppingstone"></div>
 
     <div class="inputbox">
